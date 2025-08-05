@@ -4,6 +4,10 @@ Components of JSON Web Token - header, payload, signature
 
 Payload - registered claim, public claim, private claim
 
-1. registered - 
-2. public - 
-3, private - 
+ADVANTAGES
+1. stateless
+2. compact and effecient
+3. security
+4. cross-domain communication  
+
+
