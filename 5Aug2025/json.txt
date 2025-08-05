@@ -1,0 +1,9 @@
+JSON Web Token
+
+Components of JSON Web Token - header, payload, signature
+
+Payload - registered claim, public claim, private claim
+
+1. registered - 
+2. public - 
+3, private - 
