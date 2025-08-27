@@ -1,0 +1,66 @@
+# RESTful API
+
+FULL FORM - representational state transfer
+protocol - https
+methods - get, post, put, patch, delete, head, options
+
+purpose of head - used to get headers
+purpose of options - which methods are allowed and data specific
+
+NOT REAL TIME 
+WebSocket --> REAL TIME APPLICATION
+
+# PROTOCOLS
+
+HTTPS, SMTP, FTP, WebSocket, UDP, TCP
+
+connection establish --> 3 way handshake, 4 way handshake 
+
+3 WAY HANDSHAKE
+
+1. client -> server (Sync)
+2. server -> client (ack + sync)
+3. client -> server (ack +1)
+
+WebSocket --> full duplex
+
+Simple duplex - radio
+Half duplex - walky talky
+Full duplex - video conference 
+
+
+# TYPES OF ARCHITECTURE IN REST API
+
+1-tier
+2-tier
+3-tier
+
+# BENEFITS OF REST API
+
+1. scalability
+2. readable
+3. security
+4. stateless
+
+
+# GraphQL
+
+Query language for APIs
+givers power to clients to access what they exactly need
+(there is no need to fetch all the APIs, better and faster request response)
+
+
+// PROBLEM STAEMENT 1 --> get all data in a single call
+
+
+normally in REST API-->    continents -> countries -> language
+in GraphQL --> 
+{
+    continents,
+    countries,
+    languages
+}
+single call --> get all data
+
+
+// 
