@@ -1,0 +1,43 @@
+# APOLLO SERVER 
+
+is an open source spec-compliat GraphQL server that's compatible with any GraphQL client including APOLLOCLIENT.
+
+--------------------------------
+
+# DIFFERENCES 
+
+RESTQL 
+
+- multiendpoints
+- fixed structure of HTTPS methods 
+overfetching - issue 
+realtime capabilites - webSocket, polling
+
+GRAPHQL
+
+- single end point
+- flexible structure
+overfetching - flexible
+realtime capabilites - support(subscriptions)
+
+-----------------------------
+
+GRAPHQL
+
+client --> server (query)
+query goes to resolvers
+
+-----------------------------
+
+# DATA TYPES
+
+1. scalar --> int, string, boolean
+2. custom --> relations
+
+-----------------------------
+
+SDL --> GraphQL schema definition language
+            |
+            v
+    GraphQL returns in JSON  
+
